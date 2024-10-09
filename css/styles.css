@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.hb{
+    background:url(../img/hb.jpg) fixed no-repeat;
+    width: 100%;
+    height: 323px;
+    background-size: 100% 46%;
+	font-family: 'El Messiri', sans-serif;
+    }
+.imgsize{
+        background:url(../img/headerback.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        text-align: center;
+    }
+
+    .imgsize1{
+        background:url(../img/pl1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 770px;
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        text-align: left;
+        justify-content: right;
+    }
+    .imgsize2{
+        background:url(../img/pl1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        text-align: left;
+        justify-content: right;
+    }
+    .imgsize3{
+        background:url(../img/pl.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        text-align: left;
+        justify-content: right;
+        /* margin-top: 2px; */
+        margin-top: auto;
+        margin-bottom: auto;
+        /* background-position: cover; */
+    }
+    .imgsize4{
+        background:url(../img/pl1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        text-align: left;
+        justify-content: right;
+    }
+        .imgsize5{
+            background:url(../img/pl1.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 890px;
+            background-size: 100% 100%;
+            font-family: 'El Messiri', sans-serif;
+            text-align: left;
+            justify-content: right;
+    }
+
+    .imgsize6{
+        background:url(../img/appimg.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        text-align: left;
+        justify-content: right;
+}
+
+.imgsize7{
+    background:url(../img/appimg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    font-family: 'El Messiri', sans-serif;
+    text-align: left;
+    justify-content: right;
+}
+
+.menu{
+        background-color:#0ee5f5!important; 
+        width:auto;
+        height:35px
+    }
+
+.nav{
+        min-height:39px!important;
+    }
+.navbar-default {
+        background-color:#0ee5f5!important;
+        border-color: #e7e7e7;
+}
+.menu ul{
+    margin:0;
+    padding:0px 0px;
+    list-style:none;
+    text-align:right;
+}
+.menu ul li{
+    float:left;
+    border-right:1px solid #fff;
+    position:relative;
+    text-align:right;
+}
+.menu ul li a{
+    background:rgba(5, 46, 129, 0.99);
+    display:block;
+    padding:10px 25px;
+    text-decoration:none;
+    color:#fff;
+}
+.menu ul li a:hover{
+    background:#fff;color:#000;
+}
+
+.footeralign{
+    background-color: rgb(41, 40, 40);
+    /* float:left; */
+    width: 100%;
+    /* padding:20px 40px;
+    justify-content: center; */
+}
+.footer{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    padding: 0px 15px;
+}
+.menuf{
+    background-color: rgb(41, 40, 40);
+    width:auto;
+    padding: 0px 0px;
+    
+}
+.menuf ul{
+    margin:0;
+    padding:0px 0px;
+    list-style:none;
+}
+.menuf ul li{
+    /* float:left; */
+    /* border-right:1px solid #fff; */
+    position:relative;
+    text-align:left;
+}
+.menuf ul li a{
+    /* display:block; */
+    /* padding:10px 25px; */
+    /* text-decoration:none; */
+    color:white;
+}
+#btn{
+    background-color:rgba(5, 46, 129, 0.99) ;
+    border-radius: 5px;
+	height: 50px;
+	width: 100px;
+	margin-top: 10px;
+    margin-bottom: 40px;
+	padding: 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+#btn:hover{
+    background:#ffffff;
+    color:black;
+}
+
+.a{
+    font-size: large;
+    text-decoration: none; 
+    color: red;
+    font-family:'El Messiri',sans-serif;
+    text-align: center;
+}
+.a:hover{
+    text-decoration: underline;
+    color:rgb(15, 236, 48);
+}
+.message{
+    position: sticky;
+    top:0; left:0; right:0;
+    padding:15px 10px;
+    background-color: var(--white);
+    text-align: center;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    color:var(--black);
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    }
+    
+#name{
+    width:300px;
+    border:none;
+    background:transparent;
+    border-bottom:2px solid black;
+    /* padding:6px; */
+    margin-bottom:5px;
+    color:black;
+    text-align: center;
+    
+    
+}
+.form{
+    /* border: 1px solid black;
+    padding:5px; */
+    margin-top: 2px;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 2px;
+}
+
+.center{
+    /* border: 1px solid black;
+    padding:5px; */
+    margin-top: 2px;
+    justify-content: center;
+    text-align: center;
+    /* width: 50%; */
+    margin-bottom: 2px;
+}
+
+
+.btn{
+    background-color:rgba(5, 46, 129, 0.99) ;
+    border-radius: 0px;
+	height: 30px;
+	width: 70px;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+	/* margin-top: 10px; */
+    /* margin-bottom: 40px; */
+	padding: 5px;
+    /* font-weight: bold;
+    font-size: medium; */
+}
+.btn:hover{
+    background:#ffffff;
+    color:black;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.link:hover{
+    color: red;
+}
+
+.box{
+    border: 1px black solid ;
+    width: 30%;
+    padding: 30px 0px;
+    border-radius: 5px ;
+}
+.box1{
+    border: 1px black solid ;
+    width: 50%;
+    padding: 30px 0px;
+    border-radius: 5px ;
+
+}
